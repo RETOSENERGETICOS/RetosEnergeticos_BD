@@ -1,0 +1,96 @@
+body {
+  font-family: 'Arial';
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+form {
+  width: 700px;
+  height: auto;
+  padding: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Agregado para incluir el padding en el ancho total */
+}
+h1 {
+  color: #333333;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.llenado_user label{
+  display: block;
+  color: #555555;
+  font-size: 14px;
+  margin-bottom: 10px;
+
+}
+
+.llenado_user input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.llenado_permiso label{
+  display: block;
+  color: #555555;
+  font-size: 14px;
+  margin-bottom: 10px;
+
+}
+
+.llenado_permiso select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.boton_save{
+  text-align: center;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  padding: 12px;
+  background-color: #1D4E89;
+  margin-top: 15px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #77D9D3;
+}
+
+.options_atras a{
+  display: inline-block;
+  background-color: #FD5E0F;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #77D9D3;
+}
+
+input .item{
+color: white;
+
+}

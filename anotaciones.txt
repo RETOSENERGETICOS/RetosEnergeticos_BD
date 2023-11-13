@@ -1,0 +1,31 @@
+//GENERA LA BASE DE DATOS usuarios para login
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    rol ENUM('admin', 'usuario') NOT NULL
+);
+
+roberto@retos.com
+123
+
+diana@retos.com
+123
+
+jahy@retos.com	
+$2y$10$QDMPAg/Sfek/FLBMarKF5.rFJ/w5GMP9ZfbdMykSgNSDQ4n5NcSWi	
+
+nani@retos.com
+$2y$10$Mb7/DzlxNIMCn4VxqhEPR.B0DO4eXIUE7dndyMdOiyCO3yfhd.Tqi
+
+ob_end_clean();
+
+
+
+    <td><a href='archivos/$nombreArchivo' target='_blank'><img src='img/view.svg'></a></td>
+    <td><a  href='doc_tecnica_editar.php?ITEM=" . $row["ITEM"] . "'><img src='img/edit.svg'></a></td>
+   <td><form method='POST' action='doc_tecnica_delete.php'>";
+    echo "<input type='hidden' name='ITEM' value='" . $row["ITEM"] . "'>";
+    echo "<input type='submit'><img src='img/delete.svg'>
+    </form></td>

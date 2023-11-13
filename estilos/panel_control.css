@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+form {
+    width: 450px;
+    height: auto;
+    padding: 50px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Agregado para incluir el padding en el ancho total */
+    text-align: center; /* Para centrar el contenido del formulario */
+}
+
+h1 {
+    color: #333333;
+    font-size: 20px;
+}
+
+.options_user a{
+    display: inline-block;
+    background-color: #D74894;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.options_logout a{
+    display: inline-block;
+    background-color: #FD5E0F;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1D4E89;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón azul */
+.boton-azul {
+    background-color: #1D4E89;
+    color: white;
+    border: none;
+    text-transform: none;
+}
+
+
+a:hover {
+    background-color: #77D9D3;
+}
+
+.boton-azul:hover{
+    background-color: #77D9D3;
+
+}
+
+@media only screen and (max-width: 600px) {
+    a {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
